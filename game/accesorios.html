@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nada</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+   <script type="text/javascript">
+            var numero=1;
+            function iniciar(){
+            setInterval(cambiar,5000);  
+            }
+              function cambiar(){
+                     var x= document.getElementById("fifa");
+                     x.src="images/"+numero+".png";
+                     numero=numero+1;
+                     if (numero==5){
+                      numero = 1;
+                     }
+              }              
+       </script>
+</head>
+<body onload="iniciar()">
+       <div id="cabecera">
+                 <ul>
+                     <a href="index.html"><li><img id="logo" src="./images/logo.png"></li></a>
+                     <a href="videojuegos.html"><li class="btn">Videojuegos</li></a>
+                     <a href="accesorios.html"><li class="btn">Accesorios</li></a>
+                     <a href="registro.html"><li class="btn">Registro</li></a>
+                     <a href="tiendas.html"><li class="btn">Tiendas</li></a>
+                 </ul>
+
+       </div>
+       <div id="central">
+              <img src="images/2.png" id="fifa" onclick="cambiar()">
+       </div>        
+
+
+
+	<div id="divtodo" style="background-color: white;">
+    <hr>
+    <img src="images/muf.png">
+    <img src="images/asasin.png">
+    <img src="images/plus.png">
+    <hr>
+     <img src="images/mandox2.png">
+   <img src="images/mandonintendo.png">
+   <img src="images/mando3.png">
+<!--<div id="mandos">
+   <img src="images/mandox2.png">
+   <img src="images/mandonintendo.png">
+   <img src="images/mando3.png">
+</div>-->
+</div>
+	
+	
+</body>
+</html>

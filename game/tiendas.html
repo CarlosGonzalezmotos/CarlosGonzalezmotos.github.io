@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nada</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+   <script type="text/javascript">
+            var numero=1;
+            function iniciar(){
+            setInterval(cambiar,5000);  
+            }
+              function cambiar(){
+                     var x= document.getElementById("fifa");
+                     x.src="images/"+numero+".png";
+                     numero=numero+1;
+                     if (numero==5){
+                      numero = 1;
+                     }
+              }
+       </script>
+</head>
+<body onload="iniciar()">
+       <div id="cabecera">
+                 <ul>
+                     <a href="index.html"><li><img id="logo" src="./images/logo.png"></li></a>
+                     <a href="videojuegos.html"><li class="btn">Videojuegos</li></a>
+                     <a href="accesorios.html"><li class="btn">Accesorios</li></a>
+                     <a href="registro.html"><li class="btn">Registro</li></a>
+                     <a href="tiendas.html"><li class="btn">Tiendas</li></a>
+                 </ul>
+       </div>
+       <div id="central">
+              <img src="images/2.png" id="fifa" onclick="cambiar()">
+       </div>        
+
+
+
+	<div id="divtodo">
+    <h1 style="color:white">Nuestra tienda</h1>
+    <iframe width="1000" height="720" src="https://www.youtube.com/embed/5ZPcbqNH0-0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <hr>
+    <h1 style="color: white " style="padding:10em">Como llegar</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d963.7410916471752!2d-3.689102270738876!3d40.37242959871061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d40.372439299999996!2d-3.6885461999999998!4m5!1s0xd4226f61c7881a3%3A0x8ad481c1d10737ac!2sCmo.+de+Perales%2C+120-122%2C+28041+Madrid!3m2!1d40.3723078!2d-3.6885002!5e1!3m2!1ses!2ses!4v1528880267549" width="1000" height="720" frameborder="0" style="border:0" allowfullscreen></iframe> 
+
+	</div>
+	
+	
+	
+	
+</body>
+</html>

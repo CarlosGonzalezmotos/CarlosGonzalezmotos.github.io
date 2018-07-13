@@ -1,0 +1,103 @@
+ul{
+  list-style-type: none;
+}
+li{
+    float:left;
+}
+#cabecera{
+    height: 83px;
+    width:70%;
+    margin:auto;
+    color:white; 
+}
+#divtodo{
+    margin: auto;
+    width:1000px;
+}
+#divcentral{
+    width: 100%;
+    height: 100px;
+}
+body{
+    margin:0px;
+    background-image: url("../images/carretera.jpg");
+    background-size: cover;
+}
+#fifa{
+    width: 100%;
+    overflow: hidden;
+}
+#logo{
+    margin-right: 300px;
+}
+.btn {
+  background: #a1d8fc;
+  background-image: -webkit-linear-gradient(top, #a1d8fc, #51b6f5);
+  background-image: -moz-linear-gradient(top, #a1d8fc, #51b6f5);
+  background-image: -ms-linear-gradient(top, #a1d8fc, #51b6f5);
+  background-image: -o-linear-gradient(top, #a1d8fc, #51b6f5);
+  background-image: linear-gradient(to bottom, #a1d8fc, #51b6f5);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px 17px 7px 8px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, #1f628f);
+  background-image: -moz-linear-gradient(top, #000000, #1f628f);
+  background-image: -ms-linear-gradient(top, #000000, #1f628f);
+  background-image: -o-linear-gradient(top, #000000, #1f628f);
+  background-image: linear-gradient(to bottom, #000000, #1f628f);
+  text-decoration: none;
+}
+#red{
+
+padding-left: 450px;
+
+}
+#zelda{
+padding-left: 450px;
+}
+#mandos{
+  padding-left: 450px;
+}
+.formulario{
+  padding: 3em;
+  margin-left: 250px;
+  text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+
+}
+#forn{
+  size: 2em;
+}
+
+form { padding: 50px;  width: 250px; } 
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+.fotos1{
+    -webkit-transition: all 500ms linear;
+    -moz-transition: all 500ms linear;
+    -ms-transition: all 500ms linear;
+    -o-transition: all 500ms linear;
+    transition: all 500ms linear;
+}
+
+

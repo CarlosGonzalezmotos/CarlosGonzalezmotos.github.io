@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nada</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+       <script type="text/javascript">
+       		  var numero=1;
+       		  function iniciar(){
+       		 	setInterval(cambiar,5000); 
+       		  }
+              function cambiar(){
+                     var x= document.getElementById("fifa");
+                     x.src="images/"+numero+".png";
+                     numero=numero+1;
+                     if (numero==5){
+                     	numero = 1;
+                     }
+              }
+             
+              function modificar(ultrasaurio, ultrarabo){
+              	ultrasaurio.width=ultrarabo;
+              }
+       </script>
+</head>
+<body onload="iniciar()">
+       <div id="cabecera">
+                 <ul>
+                     <a href="index.html"><li><img id="logo" src="./images/logo.png"></li></a>
+                     <a href="videojuegos.html"><li class="btn">Videojuegos</li></a>
+                     <a href="accesorios.html"><li class="btn">Accesorios</li></a>
+                     <a href="registro.html"><li class="btn">Registro</li></a>
+                     <a href="tiendas.html"><li class="btn">Tiendas</li></a>
+                 </ul>
+       </div>
+       <div id="central" class="menufotos">
+              <img src="images/2.png" id="fifa" onclick="cambiar()">
+                
+       </div>        
+<div id="divtodo">
+ <img class="fotos1"  src="images/pley4.png" id="pley" onmouseover="modificar(this, '600')" onmouseleave="modificar(this, '300')"><h2 style="color: white">367€</h2>
+ <img class="fotos1" src="images/nintendos.png" onmouseover="modificar(this, '600')" onmouseleave="modificar(this, '300')"><h2 style="color: white">450€</h2>
+ <img class="fotos1" src="images/mando.png" onmouseover="modificar(this, '600')" onmouseleave="modificar(this, '300')"><h2 style="color: white">200€</h2>   
+           
+</div>
+	
+	
+	
+	
+</body>
+</html>
