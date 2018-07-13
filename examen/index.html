@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>EXAMEN</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="./js/java.js"></script>
+</head>
+
+<body>
+	<div id="divtotal">
+		<form>
+			<h2>Solícitud de curso</h2>
+			<label>Nombre y apellidos</label>
+			<input type="text" id="nombre" placeholder="Nombre">
+			<br>
+			<hr>
+			<label>DNI</label>
+			<input type="text" id="dni" placeholder="DNI">
+			<br>
+			<hr>
+			<label>Fecha de nacimiento</label>
+			<input type="date" name="Fecha de nacimiento" id="fechaDeNacimiento">
+			<br>
+			<hr>
+			<label>teléfono o móvil</label>
+			<input type="tel" name="Telefono" placeholder="Teléfono">
+			<br>
+			<hr>
+			<label>Email</label>
+			<input type="email" id="email" placeholder="Email">
+			<br>
+			<hr>
+			<label>Preferencias de contacto</label>
+			<input type="radio" name="Contacto" id="radio1">teléfono
+			<input type="radio" name="Contacto" id="radio2">Email
+			<input type="radio" name="Contacto" id="radio3">Correo
+			<br>
+			<hr>
+			<label>Seleccíona el/los curso/s que desee</label>
+			<br>
+			<input type="checkbox" name="curso" class="cursos" value="Html5" id="html5">HTML5.300€.
+			<br>
+			<input type="checkbox" name="curso" class="cursos" value="Css3" id="css3">CSS3.200€.
+			<br>
+			<input type="checkbox" name="curso" class="cursos" value="Js" id="js">INTRODUCCIÓN JAVASCRIPT.500€.
+			<br>
+			<input type="checkbox" name="curso" class="cursos" value="JsAvanzado" id="jsAvanzado">JAVASCRIPT AVANZADO.400€.
+			<br>
+			<input type="checkbox" name="curso" class="cursos" value="Bootstrap" id="bootstrap">BOOTSTRAP.200€.
+			<br>
+			<input type="checkbox" name="curso" class="cursos" value="Jquery" id="jquery">JQUERY.300€.
+			<br>
+			<input type="checkbox" name="curso" class="cursos" value="angular" id="angular">ANGULAR 5.800€.
+			<br>
+			<span id="resultado"></span>
+			<br>
+			<input type="button" value="Enviar" onclick="validar()" id="button">
+			
+		</form>
+	</div>
+</body>
+
+</html>
